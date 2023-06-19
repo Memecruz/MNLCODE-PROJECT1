@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+#btn1 a:hover {
+  background: #ff7600;
+  border: 1px solid #fff;
+  color: #fff;
+}
+#spotlight div a:hover {
+  color: #ff7600;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #ff7600;
+}
+
+#style1 {
+  animation-name: animate;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(/basketball/b5.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b6.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b7.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b1.jpg);
+  }
+}
+#style2 {
+  animation-name: animate1;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate1 {
+  0% {
+    background-image: url(/basketball/b8.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b9.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b10.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b2.jpg);
+  }
+}
+#style3 {
+  animation-name: animate2;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate2 {
+  0% {
+    background-image: url(/basketball/b11.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b12.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b13.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b3.jpg);
+  }
+}
+#style4 {
+  animation-name: animate3;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate3 {
+  0% {
+    background-image: url(/basketball/b14.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b15.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b16.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b4.jpg);
+  }
+}
+#style5 {
+  animation-name: animate4;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate4 {
+  0% {
+    background-image: url(/basketball/b18.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b17.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b16.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b4.jpg);
+  }
+}
+#style6 {
+  animation-name: animate5;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate5 {
+  0% {
+    background-image: url(/basketball/b5.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b11.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b1.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b14.jpg);
+  }
+}
+#style7 {
+  animation-name: animate6;
+  animation-direction: alternate;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate6 {
+  0% {
+    background-image: url(/basketball/b12.jpg);
+  }
+  35% {
+    background-image: url(/basketball/b3.jpg);
+  }
+  70% {
+    background-image: url(/basketball/b5.jpg);
+  }
+  100% {
+    background-image: url(/basketball/b6.jpg);
+  }
+}
+
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 160px; /* height of carousel */
+  margin-right: 10px;
+}
